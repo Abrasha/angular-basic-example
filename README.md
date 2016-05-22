@@ -5,8 +5,8 @@ Here we've added some routing using ngRoute module.
 For that we:
 
 1. Created separate folders with 2 partial views (with js and html files).
-
-2. We decided to implement each view is an angular module (note the naming. `myAppp.` prefix is not required, but convenient). So we need to include the modules into the main myApp module.
+<!-- TODO -->
+2. We decided to implement each view is an angular module (note the naming. `myApp.` prefix is not required, but convenient). So we need to include the modules into the main myApp module.
 
 3. We included ngRoute as module dependency for our app and myApp.view1 and myApp.view2 modules.
 
